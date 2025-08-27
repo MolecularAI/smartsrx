@@ -1,0 +1,59 @@
+{
+  "$defs": {
+    "ReactiveFunction": {
+      "description": "Model representing a reactive functional group with its associated metadata.\n\nThis model encapsulates all the information needed to identify and work with\na reactive functional group, including its hierarchical classification and\nSMARTS pattern definitions.\n\nAttributes:\n    category: Top-level classification (e.g., \"Electrophile\", \"Nucleophile\")\n    subcategory: Mid-level classification for more specific grouping\n    specific_type: Bottom-level identifier (SMARTS-RX) for exact function type\n    smarts: SMARTS pattern string for molecular matching",
+      "properties": {
+        "category": {
+          "description": "Category of the reactive function",
+          "title": "Category",
+          "type": "string"
+        },
+        "smarts": {
+          "description": "SMARTS pattern",
+          "title": "Smarts",
+          "type": "string"
+        },
+        "specific_type": {
+          "description": "Specific type of the reactive function",
+          "title": "Specific Type",
+          "type": "string"
+        },
+        "subcategory": {
+          "description": "Subcategory of the reactive function",
+          "title": "Subcategory",
+          "type": "string"
+        }
+      },
+      "required": [
+        "category",
+        "subcategory",
+        "specific_type",
+        "smarts"
+      ],
+      "title": "ReactiveFunction",
+      "type": "object"
+    }
+  },
+  "description": "Database of reactive functions organized in a three-level hierarchy",
+  "properties": {
+    "data": {
+      "description": "Collection of reactive functions",
+      "items": {
+        "$ref": "#/$defs/ReactiveFunction"
+      },
+      "title": "Data",
+      "type": "array"
+    },
+    "version": {
+      "description": "Version of the SMARTS database",
+      "title": "Version",
+      "type": "string"
+    }
+  },
+  "required": [
+    "version",
+    "data"
+  ],
+  "title": "ReactiveFunctionDatabase",
+  "type": "object"
+}
