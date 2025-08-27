@@ -1,0 +1,37 @@
+[project]
+name = "smartsrx"
+version = "1.0.0"
+description = "This repository contains the SMARTS-RX library."
+authors = [
+    {name = "Eike Caldeweyher",email = "eike.caldeweyher@astrazeneca.com"},
+    {name = "Mikhail Kabeshov",email = "mikhail.kabeshov@astrazeneca.com"},
+    {name = "Thierry Kogej",email = "thierry.kogej@astrazeneca.com"},
+    {name = "Christos Kannas",email = "christos.kannas@astrazeneca.com"}
+]
+maintainers = [
+    {name = "Christos Kannas",email = "christos.kannas@astrazeneca.com"}
+]
+
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.9,<3.11"
+dependencies = [
+    "pydantic (>=2.11.4,<3.0.0)",
+    "toml (>=0.10.2,<0.11.0)",
+    "rdkit (>=2025.3.3,<2026.0.0)",
+]
+
+[tool.poetry]
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^4.2.0"
+pytest = "^8.3.5"
+pylint = "^3.3.7"
+mypy = "^1.15.0"
+isort = "^6.0.1"
+black = "^25.1.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

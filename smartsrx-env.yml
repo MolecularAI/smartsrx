@@ -1,0 +1,6 @@
+name: smartsrx-env
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9,<3.11
+  - poetry=2.1.3
