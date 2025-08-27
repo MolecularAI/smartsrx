@@ -92,7 +92,7 @@ class ReactiveFunctionDatabase(BaseModel):
 
         return matching_functions
 
-    def search_smartrx(self, query: str) -> Optional[ReactiveFunction]:
+    def search_smartsrx(self, query: str) -> Optional[ReactiveFunction]:
         """
         Search for a reactive function by its specific SMARTS-RX identifier.
 

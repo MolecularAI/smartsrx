@@ -62,10 +62,10 @@ def test_get_function(test_db):
         assert test_db.get_function(term) == []
 
 
-def test_search_smartrx(test_db):
+def test_search_smartsrx(test_db):
     """Test searching for SMARTS-RX"""
     # Valid search
-    acid_aromatic = test_db.search_smartrx("Acid_Aromatic")
+    acid_aromatic = test_db.search_smartsrx("Acid_Aromatic")
     assert isinstance(acid_aromatic, ReactiveFunction)
     assert acid_aromatic.category == "Acid"
     assert acid_aromatic.subcategory == "CarboxylicAcid"
@@ -73,7 +73,7 @@ def test_search_smartrx(test_db):
     assert acid_aromatic.smarts == "c[CX3](=[OX1])[OX2H,OX1-]"
 
     # Search for alcohol types
-    alcohol_primary = test_db.search_smartrx("Alcohol_Primary")
+    alcohol_primary = test_db.search_smartsrx("Alcohol_Primary")
     assert isinstance(alcohol_primary, ReactiveFunction)
     assert alcohol_primary.category == "Alcohol"
     assert alcohol_primary.subcategory == "PrimaryAlcohol"
@@ -81,7 +81,7 @@ def test_search_smartrx(test_db):
     assert alcohol_primary.smarts == "[CX4;!$(C(O)(O));!$(C([#6]=[#8])O)][OX2H]"
 
     # Non-existent key should return None
-    assert test_db.search_smartrx("NonExistentKey") is None
+    assert test_db.search_smartsrx("NonExistentKey") is None
 
 
 def test_empty_database():
@@ -95,7 +95,7 @@ def test_empty_database():
     # Any search should return None
     for term in ["Any", "Category", "Type"]:
         assert empty_db.get_function(term) == []
-    assert empty_db.search_smartrx("Any_Key") is None
+    assert empty_db.search_smartsrx("Any_Key") is None
 
 
 def test_malformed_data_handling():
