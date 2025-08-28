@@ -1,4 +1,5 @@
 # Repository of the `smartsrx`
+![Maturity level-1](https://img.shields.io/badge/Maturity%20Level-ML--1-yellow)
 
 The home of the `SMARTS-RX` project.
 
@@ -24,7 +25,7 @@ Ensure you have the following installed:
 ### Steps to Set Up
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/MolecularAI/smartsrx.git
+   git clone https://github.com/<your_github_space>/smartsrx.git
    cd smartsrx
    ```
 2.  **Install Dependencies**:
