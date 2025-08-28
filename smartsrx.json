@@ -341,31 +341,31 @@
       "category": "XF",
       "subcategory": "X_Aliphatic",
       "specific_type": "X-Fluoride_Vinyl",
-      "smarts": "[F;$([F][*;$([#6]);!$(*=[*;!$([#6])])]);$([$(*C=C)]);!$(FC(F)F);!$(FCF):1]"
+      "smarts": "[F;$([F][*;$([#6]);!$(*=[*;!$([#6])])]);$([$(*C=C)]);!$(FC(F)F);!$(FCF)]"
     },
     {
       "category": "X",
       "subcategory": "X_Aliphatic",
       "specific_type": "X-Chloride_Vinyl",
-      "smarts": "[Cl;$([Cl][*;$([#6]);!$(*=[*;!$([#6])])]);$([$(*C=C)]):1]"
+      "smarts": "[Cl;$([Cl][*;$([#6]);!$(*=[*;!$([#6])])]);$([$(*C=C)])]"
     },
     {
       "category": "X",
       "subcategory": "X_Aliphatic",
       "specific_type": "X-Bromide_Vinyl",
-      "smarts": "[Br;$([Br][*;$([#6]);!$(*=[*;!$([#6])])]);$([$(*C=C)]):1]"
+      "smarts": "[Br;$([Br][*;$([#6]);!$(*=[*;!$([#6])])]);$([$(*C=C)])]"
     },
     {
       "category": "X",
       "subcategory": "X_Aliphatic",
       "specific_type": "X-Iodide_Vinyl",
-      "smarts": "[I;$([I][*;$([#6]);!$(*=[*;!$([#6])])]);$([$(*C=C)]):1]"
+      "smarts": "[I;$([I][*;$([#6]);!$(*=[*;!$([#6])])]);$([$(*C=C)])]"
     },
     {
       "category": "X",
       "subcategory": "X_Aliphatic",
       "specific_type": "X-Triflate_Vinyl",
-      "smarts": "[O;$(OS(=O)(=O)C(F)(F)F);$([O;$(OS(=O)(=O)C(F)(F)F)][*;$([#6]);!$(*=[*;!$([#6])])]);$([$(*C=C)]):1]"
+      "smarts": "[O;$(OS(=O)(=O)C(F)(F)F);$([O;$(OS(=O)(=O)C(F)(F)F)][*;$([#6]);!$(*=[*;!$([#6])])]);$([$(*C=C)])]"
     },
     {
       "category": "XF",
