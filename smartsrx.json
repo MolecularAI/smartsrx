@@ -2237,7 +2237,7 @@
       "category": "Amine",
       "subcategory": "Amine_Aliphatic",
       "specific_type": "Amine_CyclicSecondary_SaturatedAliphatic-UnsaturatedAliphatic",
-      "smarts": "[N;X3;!+;!-;!$(N=*);$([N;!$(N~[*;!#6])]);!$(N[*]=[*;O,S,P,N]);R;D2;$([N;X3;!+;!-;!$(N=*);$([N;!$(N~[*;!#6])]);!$(N[*]=[*;O,S,P,N]);R;D2]([!$(C=C);!$(C#C);!$(C#N);!$(a)])[$(C=C),$(C#C),$(C#N);!$(a)])]"
+      "smarts": "[N;X3;!+;!-;!$(N=*);$([N;!$(N~[*;!#6])]);R;D2;$([N;X3;!+;!-;!$(N=*);R;D2]([!$(C=C);!$(C#C);!$(C#N);!$(a)])[$(C=N),$(C=C),$(C#C),$(C#N);!$(a)])]"
     },
     {
       "category": "Amine",
