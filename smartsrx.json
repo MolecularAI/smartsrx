@@ -1481,7 +1481,7 @@
       "category": "Protecting",
       "subcategory": "Fmoc",
       "specific_type": "Fmoc",
-      "smarts": "[N;$(NC(=O)OC1c2ccccc2-c3c1cccc3)]"
+      "smarts": "[N;$(NC(=O)OCC1c2ccccc2-c3c1cccc3)]"
     },
     {
       "category": "Protecting",
