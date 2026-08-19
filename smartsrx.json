@@ -431,91 +431,91 @@
       "category": "XF",
       "subcategory": "X_Fluoride_Aromatic",
       "specific_type": "X-Fluoride_Phe",
-      "smarts": "[F;$([F][*;$([#6]);!$(*=*)]);$([$(*[c;$(c1ccccc1)]);$(*[c;$(c1[c;!$([a3])][c;!$([a3])][c;!$([a3])][c;!$([a3])][c;!$([a3])]1)]);!$([$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)])])]);!$(FC(F)F)]"
+      "smarts": "[F;$([F][*;$([#6]);!$(*=*)]);$([$(*[c;$(c1ccccc1)]);$(*[c;$(c1[c;!$([a])][c;!$([a])][c;!$([a])][c;!$([a])][c;!$([a])]1)]);!$([$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)])])]);!$(FC(F)F)]"
     },
     {
       "category": "X",
       "subcategory": "X_Aromatic",
       "specific_type": "X-Chloride_Phe",
-      "smarts": "[Cl;$([Cl][*;$([#6]);!$(*=*)]);$([$(*[c;$(c1ccccc1)]);$(*[c;$(c1[c;!$([a3])][c;!$([a3])][c;!$([a3])][c;!$([a3])][c;!$([a3])]1)]);!$([$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)])])])]"
+      "smarts": "[Cl;$([Cl][*;$([#6]);!$(*=*)]);$([$(*[c;$(c1ccccc1)]);$(*[c;$(c1[c;!$([a])][c;!$([a])][c;!$([a])][c;!$([a])][c;!$([a])]1)]);!$([$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)])])])]"
     },
     {
       "category": "X",
       "subcategory": "X_Aromatic",
       "specific_type": "X-Bromide_Phe",
-      "smarts": "[Br;$([Br][*;$([#6]);!$(*=*)]);$([$(*[c;$(c1ccccc1)]);$(*[c;$(c1[c;!$([a3])][c;!$([a3])][c;!$([a3])][c;!$([a3])][c;!$([a3])]1)]);!$([$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)])])])]"
+      "smarts": "[Br;$([Br][*;$([#6]);!$(*=*)]);$([$(*[c;$(c1ccccc1)]);$(*[c;$(c1[c;!$([a])][c;!$([a])][c;!$([a])][c;!$([a])][c;!$([a])]1)]);!$([$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)])])])]"
     },
     {
       "category": "X",
       "subcategory": "X_Aromatic",
       "specific_type": "X-Iodide_Phe",
-      "smarts": "[I;$([I][*;$([#6]);!$(*=*)]);$([$(*[c;$(c1ccccc1)]);$(*[c;$(c1[c;!$([a3])][c;!$([a3])][c;!$([a3])][c;!$([a3])][c;!$([a3])]1)]);!$([$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)])])])]"
+      "smarts": "[I;$([I][*;$([#6]);!$(*=*)]);$([$(*[c;$(c1ccccc1)]);$(*[c;$(c1[c;!$([a])][c;!$([a])][c;!$([a])][c;!$([a])][c;!$([a])]1)]);!$([$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)])])])]"
     },
     {
       "category": "X",
       "subcategory": "X_Aromatic",
       "specific_type": "X-Triflate_Phe",
-      "smarts": "[O;$(OS(=O)(=O)C(F)(F)F);$([O;$(OS(=O)(=O)C(F)(F)F)][*;$([#6]);!$(*=*)]);$([$(*[c;$(c1ccccc1)]);$(*[c;$(c1[c;!$([a3])][c;!$([a3])][c;!$([a3])][c;!$([a3])][c;!$([a3])]1)]);!$([$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)])])])]"
+      "smarts": "[O;$(OS(=O)(=O)C(F)(F)F);$([O;$(OS(=O)(=O)C(F)(F)F)][*;$([#6]);!$(*=*)]);$([$(*[c;$(c1ccccc1)]);$(*[c;$(c1[c;!$([a])][c;!$([a])][c;!$([a])][c;!$([a])][c;!$([a])]1)]);!$([$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)])])])]"
     },
     {
       "category": "XF",
       "subcategory": "X_Fluoride_Heteroaromatic",
       "specific_type": "X-Fluoride_Het6",
-      "smarts": "[F;$([F][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaaa1)]);$(*[a;$(*1[*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])]1)]);!$([$(*[c;$(c1ccccc1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)]),$(*[c;$(c1ccc2c(aaa2)c1)]),$(*[$(c1cc2c(cccc2)cc1)]),$(*[$(c(ccc2)c1c2cccc1)]),$(*[$(a1ac2c(cccc2)aa1)]),$(*[$(a(aaa2)c1c2cccc1)]),$(*[$(c1cc2c(aaaa2)cc1)]),$(*[$(c(ccc2)c1c2aaaa1)]),$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)])])]);!$(FC(F)F)]"
+      "smarts": "[F;$([F][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaaa1)]);$(*[a;$(*1[*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])]1)]);!$([$(*[c;$(c1ccccc1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)]),$(*[c;$(c1ccc2c(aaa2)c1)]),$(*[$(c1cc2c(cccc2)cc1)]),$(*[$(c(ccc2)c1c2cccc1)]),$(*[$(a1ac2c(cccc2)aa1)]),$(*[$(a(aaa2)c1c2cccc1)]),$(*[$(c1cc2c(aaaa2)cc1)]),$(*[$(c(ccc2)c1c2aaaa1)]),$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)])])]);!$(FC(F)F)]"
     },
     {
       "category": "X",
       "subcategory": "X_Heteroaromatic",
       "specific_type": "X-Chloride_Het6",
-      "smarts": "[Cl;$([Cl][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaaa1)]);$(*[a;$(*1[*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])]1)]);!$([$(*[c;$(c1ccccc1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)]),$(*[c;$(c1ccc2c(aaa2)c1)]),$(*[$(c1cc2c(cccc2)cc1)]),$(*[$(c(ccc2)c1c2cccc1)]),$(*[$(a1ac2c(cccc2)aa1)]),$(*[$(a(aaa2)c1c2cccc1)]),$(*[$(c1cc2c(aaaa2)cc1)]),$(*[$(c(ccc2)c1c2aaaa1)]),$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)])])])]"
+      "smarts": "[Cl;$([Cl][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaaa1)]);$(*[a;$(*1[*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])]1)]);!$([$(*[c;$(c1ccccc1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)]),$(*[c;$(c1ccc2c(aaa2)c1)]),$(*[$(c1cc2c(cccc2)cc1)]),$(*[$(c(ccc2)c1c2cccc1)]),$(*[$(a1ac2c(cccc2)aa1)]),$(*[$(a(aaa2)c1c2cccc1)]),$(*[$(c1cc2c(aaaa2)cc1)]),$(*[$(c(ccc2)c1c2aaaa1)]),$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)])])])]"
     },
     {
       "category": "X",
       "subcategory": "X_Heteroaromatic",
       "specific_type": "X-Bromide_Het6",
-      "smarts": "[Br;$([Br][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaaa1)]);$(*[a;$(*1[*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])]1)]);!$([$(*[c;$(c1ccccc1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)]),$(*[c;$(c1ccc2c(aaa2)c1)]),$(*[$(c1cc2c(cccc2)cc1)]),$(*[$(c(ccc2)c1c2cccc1)]),$(*[$(a1ac2c(cccc2)aa1)]),$(*[$(a(aaa2)c1c2cccc1)]),$(*[$(c1cc2c(aaaa2)cc1)]),$(*[$(c(ccc2)c1c2aaaa1)]),$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)])])])]"
+      "smarts": "[Br;$([Br][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaaa1)]);$(*[a;$(*1[*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])]1)]);!$([$(*[c;$(c1ccccc1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)]),$(*[c;$(c1ccc2c(aaa2)c1)]),$(*[$(c1cc2c(cccc2)cc1)]),$(*[$(c(ccc2)c1c2cccc1)]),$(*[$(a1ac2c(cccc2)aa1)]),$(*[$(a(aaa2)c1c2cccc1)]),$(*[$(c1cc2c(aaaa2)cc1)]),$(*[$(c(ccc2)c1c2aaaa1)]),$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)])])])]"
     },
     {
       "category": "X",
       "subcategory": "X_Heteroaromatic",
       "specific_type": "X-Iodide_Het6",
-      "smarts": "[I;$([I][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaaa1)]);$(*[a;$(*1[*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])]1)]);!$([$(*[c;$(c1ccccc1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)]),$(*[c;$(c1ccc2c(aaa2)c1)]),$(*[$(c1cc2c(cccc2)cc1)]),$(*[$(c(ccc2)c1c2cccc1)]),$(*[$(a1ac2c(cccc2)aa1)]),$(*[$(a(aaa2)c1c2cccc1)]),$(*[$(c1cc2c(aaaa2)cc1)]),$(*[$(c(ccc2)c1c2aaaa1)]),$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)])])])]"
+      "smarts": "[I;$([I][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaaa1)]);$(*[a;$(*1[*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])]1)]);!$([$(*[c;$(c1ccccc1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)]),$(*[c;$(c1ccc2c(aaa2)c1)]),$(*[$(c1cc2c(cccc2)cc1)]),$(*[$(c(ccc2)c1c2cccc1)]),$(*[$(a1ac2c(cccc2)aa1)]),$(*[$(a(aaa2)c1c2cccc1)]),$(*[$(c1cc2c(aaaa2)cc1)]),$(*[$(c(ccc2)c1c2aaaa1)]),$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)])])])]"
     },
     {
       "category": "X",
       "subcategory": "X_Heteroaromatic",
       "specific_type": "X-Triflate_Het6",
-      "smarts": "[O;$(OS(=O)(=O)C(F)(F)F);$([O;$(OS(=O)(=O)C(F)(F)F)][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaaa1)]);$(*[a;$(*1[*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])]1)]);!$([$(*[c;$(c1ccccc1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)]),$(*[c;$(c1ccc2c(aaa2)c1)]),$(*[$(c1cc2c(cccc2)cc1)]),$(*[$(c(ccc2)c1c2cccc1)]),$(*[$(a1ac2c(cccc2)aa1)]),$(*[$(a(aaa2)c1c2cccc1)]),$(*[$(c1cc2c(aaaa2)cc1)]),$(*[$(c(ccc2)c1c2aaaa1)]),$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)])])])]"
+      "smarts": "[O;$(OS(=O)(=O)C(F)(F)F);$([O;$(OS(=O)(=O)C(F)(F)F)][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaaa1)]);$(*[a;$(*1[*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])]1)]);!$([$(*[c;$(c1ccccc1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)]),$(*[c;$(c1ccc2c(aaa2)c1)]),$(*[$(c1cc2c(cccc2)cc1)]),$(*[$(c(ccc2)c1c2cccc1)]),$(*[$(a1ac2c(cccc2)aa1)]),$(*[$(a(aaa2)c1c2cccc1)]),$(*[$(c1cc2c(aaaa2)cc1)]),$(*[$(c(ccc2)c1c2aaaa1)]),$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)])])])]"
     },
     {
       "category": "XF",
       "subcategory": "X_Fluoride_Heteroaromatic",
       "specific_type": "X-Fluoride_Het5",
-      "smarts": "[F;$([F][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaa1)]);$(*[a;$(*1[*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])]1)]);!$([$(*[$(a(aa2)a1a2aaaa1)]),$(*[$(a2aa1a(a2)aaaa1)]),$(*[$(*(aa2)c1c2cccc1)]),$(*[$(*2ac1c(a2)cccc1)]),$(*[$(a1aa(aaa2)a2a1)]),$(*[$(a1a(aaa2)a2aa1)])])]);!$(FC(F)F)]"
+      "smarts": "[F;$([F][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaa1)]);$(*[a;$(*1[*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])]1)]);!$([$(*[$(a(aa2)a1a2aaaa1)]),$(*[$(a2aa1a(a2)aaaa1)]),$(*[$(*(aa2)c1c2cccc1)]),$(*[$(*2ac1c(a2)cccc1)]),$(*[$(a1aa(aaa2)a2a1)]),$(*[$(a1a(aaa2)a2aa1)])])]);!$(FC(F)F)]"
     },
     {
       "category": "X",
       "subcategory": "X_Heteroaromatic",
       "specific_type": "X-Chloride_Het5",
-      "smarts": "[Cl;$([Cl][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaa1)]);$(*[a;$(*1[*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])]1)]);!$([$(*[$(a(aa2)a1a2aaaa1)]),$(*[$(a2aa1a(a2)aaaa1)]),$(*[$(*(aa2)c1c2cccc1)]),$(*[$(*2ac1c(a2)cccc1)]),$(*[$(a1aa(aaa2)a2a1)]),$(*[$(a1a(aaa2)a2aa1)])])])]"
+      "smarts": "[Cl;$([Cl][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaa1)]);$(*[a;$(*1[*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])]1)]);!$([$(*[$(a(aa2)a1a2aaaa1)]),$(*[$(a2aa1a(a2)aaaa1)]),$(*[$(*(aa2)c1c2cccc1)]),$(*[$(*2ac1c(a2)cccc1)]),$(*[$(a1aa(aaa2)a2a1)]),$(*[$(a1a(aaa2)a2aa1)])])])]"
     },
     {
       "category": "X",
       "subcategory": "X_Heteroaromatic",
       "specific_type": "X-Bromide_Het5",
-      "smarts": "[Br;$([Br][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaa1)]);$(*[a;$(*1[*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])]1)]);!$([$(*[$(a(aa2)a1a2aaaa1)]),$(*[$(a2aa1a(a2)aaaa1)]),$(*[$(*(aa2)c1c2cccc1)]),$(*[$(*2ac1c(a2)cccc1)]),$(*[$(a1aa(aaa2)a2a1)]),$(*[$(a1a(aaa2)a2aa1)])])])]"
+      "smarts": "[Br;$([Br][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaa1)]);$(*[a;$(*1[*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])]1)]);!$([$(*[$(a(aa2)a1a2aaaa1)]),$(*[$(a2aa1a(a2)aaaa1)]),$(*[$(*(aa2)c1c2cccc1)]),$(*[$(*2ac1c(a2)cccc1)]),$(*[$(a1aa(aaa2)a2a1)]),$(*[$(a1a(aaa2)a2aa1)])])])]"
     },
     {
       "category": "X",
       "subcategory": "X_Heteroaromatic",
       "specific_type": "X-Iodide_Het5",
-      "smarts": "[I;$([I][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaa1)]);$(*[a;$(*1[*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])]1)]);!$([$(*[$(a(aa2)a1a2aaaa1)]),$(*[$(a2aa1a(a2)aaaa1)]),$(*[$(*(aa2)c1c2cccc1)]),$(*[$(*2ac1c(a2)cccc1)]),$(*[$(a1aa(aaa2)a2a1)]),$(*[$(a1a(aaa2)a2aa1)])])])]"
+      "smarts": "[I;$([I][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaa1)]);$(*[a;$(*1[*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])]1)]);!$([$(*[$(a(aa2)a1a2aaaa1)]),$(*[$(a2aa1a(a2)aaaa1)]),$(*[$(*(aa2)c1c2cccc1)]),$(*[$(*2ac1c(a2)cccc1)]),$(*[$(a1aa(aaa2)a2a1)]),$(*[$(a1a(aaa2)a2aa1)])])])]"
     },
     {
       "category": "X",
       "subcategory": "X_Heteroaromatic",
       "specific_type": "X-Triflate_Het5",
-      "smarts": "[O;$(OS(=O)(=O)C(F)(F)F);$([O;$(OS(=O)(=O)C(F)(F)F)][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaa1)]);$(*[a;$(*1[*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])]1)]);!$([$(*[$(a(aa2)a1a2aaaa1)]),$(*[$(a2aa1a(a2)aaaa1)]),$(*[$(*(aa2)c1c2cccc1)]),$(*[$(*2ac1c(a2)cccc1)]),$(*[$(a1aa(aaa2)a2a1)]),$(*[$(a1a(aaa2)a2aa1)])])])]"
+      "smarts": "[O;$(OS(=O)(=O)C(F)(F)F);$([O;$(OS(=O)(=O)C(F)(F)F)][*;$([#6]);!$(*=*)]);$([$(*[a;$(a1aaaa1)]);$(*[a;$(*1[*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])]1)]);!$([$(*[$(a(aa2)a1a2aaaa1)]),$(*[$(a2aa1a(a2)aaaa1)]),$(*[$(*(aa2)c1c2cccc1)]),$(*[$(*2ac1c(a2)cccc1)]),$(*[$(a1aa(aaa2)a2a1)]),$(*[$(a1a(aaa2)a2aa1)])])])]"
     },
     {
       "category": "XF",
@@ -2099,19 +2099,19 @@
       "category": "Amine",
       "subcategory": "Amine_Aromatic",
       "specific_type": "Amine_Primary_Phe",
-      "smarts": "[N;X3;!+;!-;!$(N=*);$([N;!$(N~[*;!#6])]);!$(N[*]=[*;O,S,P,N]);D1;$([$(*[c;$(c1ccccc1)]);$(*[c;$(c1[c;!$([a3])][c;!$([a3])][c;!$([a3])][c;!$([a3])][c;!$([a3])]1)]);!$([$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)])])])]"
+      "smarts": "[N;X3;!+;!-;!$(N=*);$([N;!$(N~[*;!#6])]);!$(N[*]=[*;O,S,P,N]);D1;$([$(*[c;$(c1ccccc1)]);$(*[c;$(c1[c;!$([a])][c;!$([a])][c;!$([a])][c;!$([a])][c;!$([a])]1)]);!$([$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)])])])]"
     },
     {
       "category": "Amine",
       "subcategory": "Amine_Heteroaromatic",
       "specific_type": "Amine_Primary_Het6",
-      "smarts": "[N;X3;!+;!-;!$(N=*);$([N;!$(N~[*;!#6])]);!$(N[*]=[*;O,S,P,N]);D1;$([$(*[a;$(a1aaaaa1)]);$(*[a;$(*1[*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])]1)]);!$([$(*[c;$(c1ccccc1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)]),$(*[c;$(c1ccc2c(aaa2)c1)]),$(*[$(c1cc2c(cccc2)cc1)]),$(*[$(c(ccc2)c1c2cccc1)]),$(*[$(a1ac2c(cccc2)aa1)]),$(*[$(a(aaa2)c1c2cccc1)]),$(*[$(c1cc2c(aaaa2)cc1)]),$(*[$(c(ccc2)c1c2aaaa1)]),$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)])])])]"
+      "smarts": "[N;X3;!+;!-;!$(N=*);$([N;!$(N~[*;!#6])]);!$(N[*]=[*;O,S,P,N]);D1;$([$(*[a;$(a1aaaaa1)]);$(*[a;$(*1[*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])]1)]);!$([$(*[c;$(c1ccccc1)]),$(*[a;$(a1a2a(aaa2)aaa1)]),$(*[a;$(a1aaa2a(aaa2)a1)]),$(*[c;$(c1ccc2c(aaa2)c1)]),$(*[$(c1cc2c(cccc2)cc1)]),$(*[$(c(ccc2)c1c2cccc1)]),$(*[$(a1ac2c(cccc2)aa1)]),$(*[$(a(aaa2)c1c2cccc1)]),$(*[$(c1cc2c(aaaa2)cc1)]),$(*[$(c(ccc2)c1c2aaaa1)]),$(*[$(a(aaa2)a1a2aaaa1)]),$(*[$(a1aa2a(aaaa2)aa1)])])])]"
     },
     {
       "category": "Amine",
       "subcategory": "Amine_Heteroaromatic",
       "specific_type": "Amine_Primary_Het5",
-      "smarts": "[N;X3;!+;!-;!$(N=*);$([N;!$(N~[*;!#6])]);!$(N[*]=[*;O,S,P,N]);D1;$([$(*[a;$(a1aaaa1)]);$(*[a;$(*1[*;!$([a3])][*;!$([a3])][*;!$([a3])][*;!$([a3])]1)]);!$([$(*[$(a(aa2)a1a2aaaa1)]),$(*[$(a2aa1a(a2)aaaa1)]),$(*[$(*(aa2)c1c2cccc1)]),$(*[$(*2ac1c(a2)cccc1)]),$(*[$(a1aa(aaa2)a2a1)]),$(*[$(a1a(aaa2)a2aa1)])])])]"
+      "smarts": "[N;X3;!+;!-;!$(N=*);$([N;!$(N~[*;!#6])]);!$(N[*]=[*;O,S,P,N]);D1;$([$(*[a;$(a1aaaa1)]);$(*[a;$(*1[*;!$([a])][*;!$([a])][*;!$([a])][*;!$([a])]1)]);!$([$(*[$(a(aa2)a1a2aaaa1)]),$(*[$(a2aa1a(a2)aaaa1)]),$(*[$(*(aa2)c1c2cccc1)]),$(*[$(*2ac1c(a2)cccc1)]),$(*[$(a1aa(aaa2)a2a1)]),$(*[$(a1a(aaa2)a2aa1)])])])]"
     },
     {
       "category": "Amine",
