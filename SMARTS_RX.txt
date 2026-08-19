@@ -245,7 +245,7 @@ Boronic Boronic_Heteroaromatic Boronic_Heteroaromatic [B;$([B;!R]([O;D1])[O;D1])
 Boronic BoronicCyclic BoronicCyclic [B;R;$(B([O;D1])[O;D2])]
 Borane AliphaticBorane AliphaticBorane [B;D2;$(B[C;X4])]
 Borane AliphaticDiborane AliphaticDiborane [B;$(B([C;X4])([C;X4])B([C;X4])[C;X4])]
-Protecting Fmoc Fmoc [N;$(NC(=O)OC1c2ccccc2-c3c1cccc3)]
+Protecting Fmoc Fmoc [N;$(NC(=O)OCC1c2ccccc2-c3c1cccc3)]
 Protecting Boc Boc [N,n;$([N,n][C;!R](=O)OC([C;D1])([C;D1])[C;D1])]
 Protecting Pivalic Pivalic [O;D2;$(OC(=O)C([C;D1])([C;D1])[C;D1])]
 Alkene/MichaelAcceptor AlkeneTerminal AlkeneTerminal [C;D1;$(C=[c,C][*;!$(*=C)])]
